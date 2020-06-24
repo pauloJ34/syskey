@@ -1,0 +1,49 @@
+body{margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("../IMG/papelParede3.jpg");}
+nav{height: auto;
+    width: 100%;
+    color: white;
+    background-color: purple;
+    float: left;}
+h2.titulo{
+    width: 250px;
+    padding-left: 30px;
+    float:left;
+}
+a.paginas{
+    margin-top: 19.920px;
+    margin-bottom: 19.920px;
+    padding-right: 16px;
+    text-decoration: none;
+    color: white;
+    float:right;
+    font-size: 1.3em;
+}
+
+a.paginas:active{color:crimson;}
+
+main{width: 100%;
+    float: left;}
+    
+table{margin: auto;
+    margin-top: 1%;}
+table,tr,th,td{
+    padding:5px 20px 5px 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.04em;
+    text-align: center;
+}
+th{
+    background-color: white;
+}
+button.btRecarregar{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    width: 20%;
+    height: 30px;
+    font-size: 1.25em;
+}

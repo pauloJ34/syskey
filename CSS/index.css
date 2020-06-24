@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../IMG/papelParede.jpg");
+}
+div.notifica_erro{
+    width:92%;
+    margin:auto;
+    margin-top: 5%;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    background-color: #ff3333;
+    font-weight:bold;
+    color:white;
+    text-align: center;
+}
+div.cadastrar{
+    position: absolute;
+    width: 30%;
+    top:30%;
+    left: 35%;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
+div.notifica_erro{
+    font-size: 18px;
+}
+form{
+    padding-top:4%;
+    text-align: center;
+    padding-bottom:4%;
+}
+input{
+    margin-top: 1%;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    color:#404040;
+    border:2px groove ;
+    border-radius: 6px;
+}input[type=submit]{
+    width: 90%;
+    background-color: #1a8cff;
+    color:white;
+}
