@@ -2,8 +2,6 @@
 <?php 
 session_start();
 include_once("PHP/Login/verifica_sessao.php");
-
-
 ?>
 <html lang="pt-br">
     <head>

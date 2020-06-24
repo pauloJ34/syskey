@@ -9,6 +9,7 @@ numero tinyint zerofill,
 estado varchar(35),
 usuario varchar(35),
 horario char(15),
+tipo varchar(35),
 primary key(numero)
 );
 
@@ -18,11 +19,19 @@ login varchar(45) not null,
 senha varchar(35),
 primary key(id)
 );
+create table loginP(
+id int not null auto_increment,
+login varchar(45) not null,
+senha varchar(35),
+primary key(id)
+);
 
 create table dados(
 id int not null,
+login varchar(45) not null,
+senha varchar(35),
 nome varchar(35),
 cpf char(14),
 funcao varchar(35),
-primary key(id)
+primary key(cpf)
 );
