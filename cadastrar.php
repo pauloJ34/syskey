@@ -9,7 +9,8 @@ include_once("PHP/Login/verifica_sessao.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css"> 
     <link rel="stylesheet" href="CSS/cadastrar.css">
-
+    
+<!-- --------------------------------- -->
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.min.js"></script>
