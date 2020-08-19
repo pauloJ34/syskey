@@ -4,12 +4,9 @@
     define("SENHA", "");
     define("BD", "syskey");
     //criar conexão
-    //$conn = new mysqli($servidor,$usuario,$senha,$bancoDeDadosName)
-
-    /*if($conn -> connect_errno){
-        echo "Falha na coneção: (".$conn -> connect_errno.") ".$conn -> connect_error;
-    }*/
+    //duas conexão para adicionar dois bancos de dados de uma vez
     $conexao=mysqli_connect(HOST,USER,SENHA,BD) or die ("Não é possivel conectar");  
+    $conexao1=mysqli_connect(HOST,USER,SENHA,BD) or die ("Não é possivel conectar");
     mysqli_set_charset($conexao,"utf8");
 
 

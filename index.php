@@ -23,15 +23,19 @@ if($_SESSION["matricula"]){
         <main>
             <div class="cadastrar">
                 <?php 
-                if(isset($_SESSION["não_autenticado"])):
-            ?>
-            <div class="notifica_erro">
-                <p>ERRO: Usúario ou Senha Inválidos.</p>
-            </div>
-            <?php 
-                endif;
-                unset($_SESSION["não_autenticado"]);
-            ?>
+                if(isset($_SESSION["não_autenticado"])){
+                    echo '<div class="notifica_erro">';
+                    echo '<p>ERRO: Usúario ou Senha Inválidos.</p>';
+                    echo '</div>';
+                    unset($_SESSION["não_autenticado"]);
+                }
+                elseif (isset($_SESSION["vaziu"])) {
+                    echo '<div class="notifica_erro">';
+                    echo ' <p>ERRO: Todos os campus vazio</p>';
+                    echo '</div>';
+                    unset($_SESSION["não_autenticado"]);
+                }
+                ?>
                 <form action="PHP/Login/login.php" method="POST">
                     <input type="text" name="matricula" placeholder="Matrícula"><br>
                     <input type="password" name="senha" placeholder="Senha"><br><br>

@@ -3,8 +3,8 @@
     // incluir a conexão
     include_once("conexao.php");
 
-     //retornar valor de "de algo"
-    //$chave = "SELECT * FROM dados";
+     
+    //chamar o banco de dados "chaves"
     $chave = "SELECT * FROM chaves";
     $resultado = mysqli_query($conexao, $chave);
     echo "<tr>";
@@ -14,6 +14,7 @@
     echo "    <th>Horários</th>";
     echo"</tr>";
     while($dados = $resultado->fetch_array()){  
+    //colocar dados do banco na tabela inicial
         echo "<tr>";
         echo "  <td>".$dados["numero"]."</td>";
         echo "  <td>".$dados["estado"]."</td>";

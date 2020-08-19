@@ -15,7 +15,16 @@ include_once("PHP/Login/verifica_sessao.php");
         <nav>
             <h2 class="titulo">SYSKEY</h2> 
             <a href="PHP/Login/logout.php" class= "paginas">Sair</a>
+            <?php 
+            //se for um ADM vai aparecer para "cadastrar"
+                if($_SESSION["nao_adm"]):
+            ?>
             <a href="cadastrar.php" class= "paginas">Cadastrar</a>
+            <?php 
+                endif;
+                unset($_SESSION["não adm"]);
+            //Fim da condição
+            ?>
             <a href="#" class= "paginas">Inicio</a>
         </nav>
         <!-- --------------------------------- -->

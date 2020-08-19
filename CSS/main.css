@@ -6,7 +6,8 @@ nav{height: auto;
     width: 100%;
     color: white;
     background-color: purple;
-    float: left;}
+    float: left;
+    height: 68px;}
 h2.titulo{
     width: 250px;
     padding-left: 30px;
