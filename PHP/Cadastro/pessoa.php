@@ -45,6 +45,12 @@ else{
     }
     // se não estiver vaziu vai adicionar
     else{
+        $login=$_POST["login"];
+        $senha=$_POST['senha'];
+        $nome=$_POST['nome'];
+        $cpf=$_POST['cpf'];
+        $funcao=$_POST['funcao'];
+
         $sql1="INSERT INTO login (login,senha,funcao) VALUES ('".$login."',md5('".$senha."'),'normal')";
         $sql2="INSERT INTO dados (login, senha, nome, cpf, funcao) VALUES ('".$login."', md5('".$senha."'), '".$nome."', '".$cpf."', '".$funcao."')";
         //primeira conexão para adicionar no primeiro banco de dado

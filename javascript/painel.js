@@ -18,7 +18,7 @@ window.onload= function(){
     var bt3=document.querySelector(".btADM");
     bt3.onclick = mostrarADM;
 
-    pessoa.classList.add("oculto")
+    
     sala.classList.add("oculto")
     adm.classList.add("oculto")
 };

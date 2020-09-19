@@ -15,7 +15,7 @@ $(function(){// quando iniciar executar logo
                     trx[i+1].style.backgroundColor="yellow"  
                 }else if(tdX[num].textContent=="em uso"){//vermelho=usando
                     trx[i+1].style.backgroundColor="red"
-                }num+=4
+                }num+=6
             }
         },
         error: function(){
@@ -41,7 +41,7 @@ function repetir(){//quando passar o tempo auto atualiza os dados
                         trx[i+1].style.backgroundColor="yellow"  
                     }else if(tdX[num].textContent=="em uso"){//vermelho=usando
                         trx[i+1].style.backgroundColor="red"
-                    }num+=4
+                    }num+=6
                 }
             },
             error: function(){
@@ -68,7 +68,7 @@ $(function(){// quando aperta atualiza os dados
                         trx[i+1].style.backgroundColor="yellow"  
                     }else if(tdX[num].textContent=="em uso"){//vermelho=usando
                         trx[i+1].style.backgroundColor="red"
-                    }num+=4
+                    }num+=6
                 }
             },
             error: function(){
