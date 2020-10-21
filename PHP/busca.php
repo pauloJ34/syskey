@@ -6,7 +6,7 @@
      
     //chamar o banco de dados "chaves"
     $chave = "SELECT * FROM chaves";
-    $num=0;
+    $num=1;
     $resultado = mysqli_query($conexao, $chave);
     echo "<tr>";
     echo "    <th>N° das Chaves</th>";
@@ -23,9 +23,10 @@
         echo "  <td>".$dados["estado"]."</td>";
         echo "  <td>".$dados["usuario"]."</td>";
         echo "  <td>".$dados["horario"]."</td>";
-        echo "  <td style='padding:0;'><button class='btTabela' id='entregar'>Entrengar</button></td>";
-        echo "  <td style='padding:0;'><button class='btTabela' id='agendar'>Agendar</button></td>";
+        echo "  <td style='padding:0;'><button class='btTabela' id='entregar".$num."'>Entrengar</button></td>";
+        echo "  <td style='padding:0;'><button class='btTabela' id='agendar".$num."'>Agendar</button></td>";
         echo "</tr>";
+        $num++;
     }
 
 ?>
