@@ -9,7 +9,8 @@ include_once("PHP/Login/verifica_sessao.php");
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/main.css">  
-        
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="javascript/funcionMain.js"></script>
         <title>SYSKEY</title>
     </head>
     <body>
@@ -46,6 +47,5 @@ include_once("PHP/Login/verifica_sessao.php");
         
         <!-- -------------------------------- -->
     </body>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="javascript/funcionMain.js"></script>
+    
 </html>

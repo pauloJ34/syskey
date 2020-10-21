@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("../IMG/papelParede.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 div.notifica_erro{
     width:92%;

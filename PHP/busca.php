@@ -23,8 +23,8 @@
         echo "  <td>".$dados["estado"]."</td>";
         echo "  <td>".$dados["usuario"]."</td>";
         echo "  <td>".$dados["horario"]."</td>";
-        echo "  <td style='padding:0;'><button class='btTabela'>Entrengar</button></td>";
-        echo "  <td style='padding:0;'><button class='btTabela'>Agendar</button></td>";
+        echo "  <td style='padding:0;'><button class='btTabela' id='entregar'>Entrengar</button></td>";
+        echo "  <td style='padding:0;'><button class='btTabela' id='agendar'>Agendar</button></td>";
         echo "</tr>";
     }
 
