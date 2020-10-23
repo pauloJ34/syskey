@@ -79,7 +79,7 @@ button:focus{
     outline: none;
 }
 input[type="text"].outro{
-    width:50%;
+    width:65%;
     margin-left: 0;
 }.Erro{
     font-size: 13px;
@@ -97,4 +97,9 @@ input[type="text"].outro{
 }
 input:focus{
     outline: none;
+}label{
+    width: 83%;
+}
+input[type="radio"]#sele{
+    width: 15px;
 }

@@ -87,7 +87,7 @@ include_once("PHP/Login/verifica_sessao.php");
                     <p class="tsala">TIPO DE SALA:</p><br>
                     <label><input type="radio" name="tipo" value="sala de aula" >SALA DE AULA</label> <br> <br>
                     <label><input type="radio" name="tipo" value="laboratorio">LABORATÓRIO </label><br><br>
-                    <label><input type="radio" name="tipo" id="sele" value="vd">OUTRO:</label> <input type="text" name="tipoo" class="outro" id="texto" checked=true>
+                    <label><input type="radio" name="tipo" id="sele" value="vd">OUTRO: <input type="text" name="tipoo" class="outro" id="texto" checked=true></label>
                     <script type="text/javascript">
            
                         document.querySelector("#sele").addEventListener("click", function(){document.querySelector("#texto").focus()})
