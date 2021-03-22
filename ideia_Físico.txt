@@ -1,4 +1,0 @@
-ideia de complemento do projeto siskey:
-
--fazer uma caixa de guardar chaves, onde cada chave vai ter seu local, e cada local vai se comunicar com chave, a comunicação vai ser para abrir a porta do local da chave, e por motivos de segurança ainda vai funcionar com chaves normais.
--para fechar a porta é só empurrar, que vai ser trancada.
